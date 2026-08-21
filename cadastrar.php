@@ -28,7 +28,7 @@ $sql = "INSERT INTO usuarios (nome, email, senha)
 if ($conexao->query($sql) === TRUE) {
 
     echo "Conta criada com sucesso!<br>";
-    echo '<a href="index.php">Ir para o login</a>';
+    echo '<a href="index.html">Ir para o login</a>';
 
 } else {
 
